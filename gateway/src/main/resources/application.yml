@@ -1,0 +1,27 @@
+server:
+  port: 27070
+
+spring:
+  application:
+    name: microsvc-gateway
+  cloud:
+    gateway:
+      routes:
+        - id: 163
+          uri: https://www.163.com/
+          order: 9000
+          predicates:
+          - Path=/163
+        # =====================================
+        - id: baidu
+          uri: https://www.baidu.com
+          order: 10000
+          predicates:
+          - Path=/baidu
+
+logging:
+  level:
+    org.springframework.cloud.gateway: TRACE
+    org.springframework.http.server.reactive: DEBUG
+    org.springframework.web.reactive: DEBUG
+    reactor.ipc.netty: DEBUG
