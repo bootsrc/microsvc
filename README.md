@@ -13,9 +13,10 @@
 
 | 序号 | module | 功能 |
 | :------: | :------: | :------ |
-| 1 | gateway | 网关，基于Spring Cloud Gateway |
-| 2 | mall-app | 主应用程序 |
-| 3 | mall-service | 服务，基于Spring Cloud Consul |
+| 1 | [gateway](gateway) | 网关，基于Spring Cloud Gateway |
+| 2 | [mall-app](mall-app) | 主应用程序 |
+| 3 | [mall-service](mall-service) | 服务，基于Spring Cloud Consul |
+| 4 | [spring-cloud-sleuth](https://github.com/liushaoming/svctracer) | sleuth+zipkin 微服务调用链跟踪 |
 
 <br/>
 
