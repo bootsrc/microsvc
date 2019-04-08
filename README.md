@@ -20,6 +20,25 @@
 
 <br/>
 
+
+## 测试程序
+
+启动mall-app,mall-serice两个应用
+
+访问浏览器来调用微服务[http://localhost:27060/goods/list](http://localhost:27060/goods/list)
+
+这样会让mall-app去调用spring cloud服务mall-service
+
+查看consul控制台和zipkin页面，监控调用效果
+
+consul控制台
+[http://localhost:8500](http://localhost:8500)
+
+zipkin控制台
+[http://localhost:9411/zipkin/](http://localhost:9411/zipkin/)
+
+## 贡献代码
+
 **欢迎广大程序员加入开源软件的开发**，无论你是一个小白，菜鸟，还是一个大佬，甚至大神。这里都
 能找到，或者新建一个难易程度适合你的项目。
 
